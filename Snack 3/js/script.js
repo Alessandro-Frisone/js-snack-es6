@@ -1,7 +1,7 @@
 // Funzione che accetti trew argometni (array e due numeri)
 function filter(array, a, b) {
     let secondArray = []
-    for (let i = 0; i < array.lenght; i++) {
+    for (let i = 0; i < array.length; i++) {
         if (a <= i && i <= b) {
             secondArray.push(array[i])
         }
